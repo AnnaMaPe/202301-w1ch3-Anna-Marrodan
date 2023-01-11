@@ -1,6 +1,27 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #ffc845;
+}
+
 header {
   background-color: #279989;
   display: flex;
+}
+
+.container-main {
+  background-color: #44a080;
+  display: flex;
+}
+
+.container-top {
+  background-color: #44a080;
+}
+
+ul {
+  list-style-type: none;
 }
