@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="/images/download.jpeg">
+  <link type="text/css" href="style.css" rel="stylesheet">
   <title>My list</title>
 </head>
 
@@ -17,14 +18,20 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./index.html">List</a></li>
-          <li><a href="./add-article.html">List</a></li>
+          <li><a href="./add-article.html">Add article</a></li>
         </ul>
       </nav>
     </header>
   </div>
-  <div class="container2">
-
-  </div>
+  <main>
+    <form>Añadir artículo
+      <label for="name">Name:</label>
+      <input type="text" name="name">
+      <label type="text" name="price">Price:</label>
+      <input type="text" name="price">
+      <button type="button">Add</button>
+    </form>
+  </main>
 </body>
 
 </html>
